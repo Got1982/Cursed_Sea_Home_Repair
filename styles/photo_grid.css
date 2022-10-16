@@ -1,0 +1,128 @@
+.profile-grid {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-left: 100px;
+}
+
+.image-block {
+    object-fit: contain;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.about-text {
+    font-size: 338%;
+    object-fit: contain;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.gallery-grid {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image2 {
+    width: 100%;
+
+}
+
+.image3 {
+    width: 100%;
+}
+
+.image4 {
+    width: 100%;
+}
+
+.image5 {
+    width: 100%;
+}
+
+.image6 {
+    width: 100%;
+}
+
+.photo-block {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+.photo-block2 {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+.photo-block3 {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+.photo-block4 {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+.photo-block5 {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+.photo-block6 {
+    width: 500px;
+    background: rgba(49, 36, 26, 0.8);
+    color: #bf9881;
+    padding: 4px;
+}
+
+@media (min-width:746px) {
+    .gallery-grid {
+        align-items: end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .profile-grid {
+        align-items: end;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+}

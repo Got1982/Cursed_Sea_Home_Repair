@@ -1,0 +1,19 @@
+footer {
+
+    padding: 1rem;
+    height: 214px;
+    font-size: 28px;
+    background: #31241a;
+    color: #bf9881;
+}
+
+@media (min-width:746px) {
+    footer {
+        margin-bottom: 0;
+        padding: 1rem;
+        height: 104px;
+        font-size: 28px;
+        background: #31241a;
+        color: #bf9881;
+    }
+}

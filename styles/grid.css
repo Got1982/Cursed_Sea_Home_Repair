@@ -1,0 +1,42 @@
+.grid {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    z-index: -300px;
+    margin-bottom: 3px;
+}
+
+.large-logo {
+    max-width: 500px;
+}
+
+.logo-line {
+    font-size: 2.125rem;
+    margin-left: 65px;
+    color: #464e6b;
+}
+
+.services {
+    font-size: 2.625rem;
+    list-style-type: disc;
+    color: #464e6b;
+    z-index: -350;
+}
+
+.list {
+    margin-left: 110px;
+}
+
+@media (min-width:746px) {
+    .grid {
+        align-items: end;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        z-index: -300px;
+    }
+}
